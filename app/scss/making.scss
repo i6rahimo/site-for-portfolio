@@ -1,0 +1,41 @@
+.making {
+  padding: 240px 20px 260px 20px;
+
+  &__title {
+    h3 {
+      font-size: 36px;
+    }
+  }
+
+  &__items {
+    padding-top: 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__item {
+    width: 275px;
+    height: 100%;
+    &:not(:last-child) {
+      margin-right: 41px;
+    }
+  }
+
+  h4 {
+    padding-top: 64px;
+  }
+  p {
+    font-size: 14px;
+    opacity: 0.5;
+    padding: 31px 0 16px 0;
+  }
+  p,
+  span {
+    font-family: $montserrat;
+  }
+  span {
+    color: $orange;
+    font-weight: 600;
+  }
+}
