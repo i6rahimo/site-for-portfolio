@@ -13,8 +13,8 @@
       flex-wrap: wrap;
       display: flex;
       justify-content: space-between;
-      width: 776px;
-      height: 189px;
+      width: 100%;
+      max-width: 776px;
     }
   }
 
@@ -67,13 +67,13 @@
   }
 
   &__down {
-    padding-top: 417px;
+    padding-top: 117px;
     position: relative;
-    display: block;
-    margin-top: 85px;
+
     &::before {
       content: "";
       width: 100%;
+      max-width: 1238px;
       height: 1px;
       background-color: #000;
       position: absolute;

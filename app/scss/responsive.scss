@@ -55,7 +55,17 @@
 }
 @media all and (max-width: 1221px) {
 }
-
+@media (max-width: 1020px) {
+  .footer__top-left {
+    padding-bottom: 30px;
+  }
+  .footer__top-r {
+    padding-bottom: 20px;
+  }
+  .footer__right-nav li {
+    margin-bottom: 30px;
+  }
+}
 @media all and (max-width: 1000px) {
   .header__title {
     width: 700px;
